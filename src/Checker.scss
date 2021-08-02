@@ -1,0 +1,42 @@
+.inpt-container{
+    max-width: 500px;
+    width: 100%;
+    height: 300px;
+    background: rgb(226, 218, 109);
+    margin: 100px auto;
+    padding: 30px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+
+    .inpt-field{
+        display: grid;
+        text-align: left;
+        margin-bottom: 15px;
+        align-items: center;
+    .input{
+        width: 100%;
+        outline: none;
+        border: 1px solid #d5dbd9;
+        font-size: 15px;
+        padding: 8px 10px;
+        border-radius: 3px;
+        transition: all 0.3s ease;
+    }
+}
+.button-container{
+    display: flex;
+    margin-top: 150px;
+    position: relative;
+    justify-content: space-around;
+        .button{
+            width: 100px;
+            padding: 8px 10px;
+            font-size: 15px;
+            border: 0;
+            background: #0f0f0e;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+    }
+}
+
